@@ -1,0 +1,18 @@
+{
+  "name": "js-game-client",
+  "version": "0.0.1",
+  "description": "client for my game in browser",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify src/Run.js -o build/bundle.js -d"
+  },
+  "author": "dimamir999",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "2.4.6",
+    "entity-component-system":"2.2.0"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  }
+}
